@@ -66,7 +66,6 @@ public class Room {
         this.isAvailable = isAvailable;
     }
 
-    // toString for debugging
     @Override
     public String toString() {
         return "Room{" +

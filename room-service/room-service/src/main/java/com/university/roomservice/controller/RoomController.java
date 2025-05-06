@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.security.access.prepost.PreAuthorize;
+
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -27,7 +29,7 @@ public class RoomController {
         var rooms = roomService.GetAllRooms();
 
         return ResponseEntity.ok(rooms);
-    }    
+    }
 
         @GetMapping({"/{id}"})
         public ResponseEntity<Room> GetRoomById(@PathVariable int id){
@@ -40,6 +42,7 @@ public class RoomController {
         }
 
         @PostMapping
+        @PreAuthorize("hasRole('ADMIN')")
         public ResponseEntity<Room> CreateRoom(@RequestBody Room room){
             try{
                 var createdRoom = roomService.CreateRoom(room);
@@ -55,6 +58,7 @@ public class RoomController {
 
 
     @PutMapping("/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Room> updateRoom(@PathVariable int id, @RequestBody Room room) {
         try {
             Room updatedRoom = roomService.updateRoom(id, room);
@@ -66,6 +70,7 @@ public class RoomController {
 
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> deleteRoom(@PathVariable int id) {
         try {
             roomService.deleteRoom(id);
