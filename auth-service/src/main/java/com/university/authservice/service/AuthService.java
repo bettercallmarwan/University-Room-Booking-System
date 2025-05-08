@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import java.util.Optional;
 
 @Service
@@ -42,7 +41,7 @@ public class AuthService {
         user.setUsername(request.getUsername());
         user.setPassword(passwordEncoder.encode(request.getPassword()));
         user.setRole(request.getRole() != null ? request.getRole() : Role.USER);
-        logger.debug("User role before save: {}", user.getRole());
+        logger.debug("User role before saving: {}", user.getRole());
 
         User savedUser = userRepository.save(user);
         logger.debug("Saved user role: {}", savedUser.getRole());
