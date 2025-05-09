@@ -1,6 +1,8 @@
 package com.university.bookingservice.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 @Entity
@@ -11,20 +13,24 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
+    @NotNull(message = "Room ID is required")
     private Long roomId;
 
+    @NotNull(message = "Student ID is required")
+    private Long studentId;
 
-    private Long studentId; // the student who booked the room
-
+    @NotNull(message = "Start time is required")
+    @Future(message = "Start time must be in the future")
     private LocalDateTime startTime;
+
+    @NotNull(message = "End time is required")
+    @Future(message = "End time must be in the future")
     private LocalDateTime endTime;
 
+    @NotNull(message = "Status is required")
+    private String status; // Values: "pending", "approved", "canceled"
 
-    private String status;   // pending, approved , canceled
-
-    // Getters & Setters
-
+    // Getters and Setters
     public Long getId() {
         return id;
     }
@@ -64,7 +70,6 @@ public class Booking {
     public void setEndTime(LocalDateTime endTime) {
         this.endTime = endTime;
     }
-
 
     public String getStatus() {
         return status;
