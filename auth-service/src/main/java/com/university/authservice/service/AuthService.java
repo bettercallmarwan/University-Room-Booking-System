@@ -10,6 +10,7 @@ import com.university.authservice.utilities.JwtUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -28,6 +29,9 @@ public class AuthService {
 
     @Autowired
     private JwtUtils jwtUtil;
+
+    @Autowired
+    private AuthenticationManager authenticationManager;
 
     public UserResponse register(RegisterRequest request) {
         logger.debug("Registering user: {}", request.getUsername());
@@ -64,7 +68,7 @@ public class AuthService {
                         .build();
                 logger.debug("UserDetails created: {}", userDetails.getUsername());
                 try {
-                    String token = jwtUtil.generateToken(userDetails);
+                    String token = jwtUtil.generateToken(userDetails, user.getId());
                     logger.debug("JWT token generated for user: {}", req.getUsername());
                     return token;
                 } catch (Exception e) {

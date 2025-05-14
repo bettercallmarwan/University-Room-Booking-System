@@ -62,12 +62,11 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             logger.debug("Loaded user details for username: {}", username);
             if (jwtUtil.validateToken(token, userDetails)) {
                 logger.debug("Token validated successfully");
-                // Use roles from the token instead of userDetails.getAuthorities()
                 UsernamePasswordAuthenticationToken authToken =
                         new UsernamePasswordAuthenticationToken(
                                 userDetails,
                                 null,
-                                jwtUtil.extractRoles(token) // Use roles from token
+                                jwtUtil.extractRoles(token)
                         );
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(authToken);

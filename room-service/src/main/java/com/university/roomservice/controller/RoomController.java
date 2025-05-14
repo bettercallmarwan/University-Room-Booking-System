@@ -26,12 +26,13 @@ public class RoomController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Room> getRoomById(@PathVariable int id) {
-        var room = roomService.getRoomById(id);
-        if (room == null) {
+    public ResponseEntity<Room> getRoomById(@PathVariable("id") int id) {
+        try {
+            Room room = roomService.getRoomById(id);
+            return ResponseEntity.ok(room);
+        } catch (NoSuchElementException e) {
             return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(room);
     }
 
     @PostMapping
@@ -68,4 +69,14 @@ public class RoomController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @GetMapping("/{id}/available")
+    public boolean isAvailable(@PathVariable("id") int id){
+        if(roomService.isAvailable(id)){
+            return true;
+        }
+        return false;
+    }
+
+
 }

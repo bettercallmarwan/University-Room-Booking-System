@@ -22,6 +22,10 @@ public class JwtUtils {
     @Value("${jwt.secret}")
     private String SECRET_KEY;
 
+    public JwtUtils() {
+        logger.debug("Initialized JwtUtils with SECRET_KEY: '{}'", SECRET_KEY);
+    }
+
     public String generateToken(UserDetails userDetails) {
         logger.debug("Generating token for user: {}", userDetails.getUsername());
         try {
@@ -31,7 +35,7 @@ public class JwtUtils {
                     .setSubject(userDetails.getUsername())
                     .claim("role", role)
                     .setIssuedAt(new Date(System.currentTimeMillis()))
-                    .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60)) // 1 hour
+                    .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60)) // 1 hour expiration
                     .signWith(SignatureAlgorithm.HS256, SECRET_KEY)
                     .compact();
         } catch (Exception e) {
@@ -50,6 +54,20 @@ public class JwtUtils {
                     .getSubject();
         } catch (Exception e) {
             logger.error("Error extracting username from token: {}", e.getMessage(), e);
+            throw e;
+        }
+    }
+
+    public Long extractStudentId(String token) {
+        logger.debug("Extracting studentId from token");
+        try {
+            return Jwts.parser()
+                    .setSigningKey(SECRET_KEY)
+                    .parseClaimsJws(token)
+                    .getBody()
+                    .get("studentId", Long.class);
+        } catch (Exception e) {
+            logger.error("Error extracting studentId from token: {}", e.getMessage(), e);
             throw e;
         }
     }

@@ -28,7 +28,7 @@ public class Room {
     @NotNull(message = "Availability is required")
     private Boolean isAvailable;
 
-    // Getters and setters
+
     public int getId() {
         return id;
     }

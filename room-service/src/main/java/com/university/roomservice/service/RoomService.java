@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 @Service
 public class RoomService {
@@ -23,10 +24,16 @@ public class RoomService {
         return roomRepository.findAll();
     }
 
+
     public Room getRoomById(int id) {
         logger.debug("Fetching room with id: {}", id);
-        return roomRepository.findById(id).orElse(null);
+        Optional<Room> roomOptional = roomRepository.findById(id);
+        if (roomOptional.isEmpty()) {
+            logger.error("No room found in database for id: {}", id);
+        }
+        return roomOptional.orElseThrow(() -> new NoSuchElementException("Room not found with id: " + id));
     }
+
 
     public Room createRoom(Room room) {
         logger.debug("Creating room: {}", room.getName());
@@ -66,5 +73,11 @@ public class RoomService {
             throw new NoSuchElementException("Room not found");
         }
         roomRepository.deleteById(id);
+    }
+
+
+    public boolean isAvailable(int id) {
+        var room = roomRepository.findById(id);
+        return room.get().getIsAvailable();
     }
 }

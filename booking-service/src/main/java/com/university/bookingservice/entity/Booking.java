@@ -16,7 +16,7 @@ public class Booking {
     @NotNull(message = "Room ID is required")
     private Long roomId;
 
-    @NotNull(message = "Student ID is required")
+    // Remove @NotNull since it will be set by the controller
     private Long studentId;
 
     @NotNull(message = "Start time is required")
@@ -27,10 +27,8 @@ public class Booking {
     @Future(message = "End time must be in the future")
     private LocalDateTime endTime;
 
-    @NotNull(message = "Status is required")
     private String status; // Values: "pending", "approved", "canceled"
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
