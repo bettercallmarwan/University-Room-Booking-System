@@ -1261,3 +1261,529 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2025-05-14T06:05:06.107+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
 2025-05-14T06:05:06.107+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
 2025-05-14T06:05:06.123+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:16.133+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:05:16.133+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:16.143+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:26.153+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:05:26.154+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:26.160+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:35.925+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:05:35.925+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:35.930+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:35.930+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:05:36.163+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:05:36.163+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:36.167+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:46.168+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:05:46.168+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:46.173+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:05:56.176+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:05:56.176+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:05:56.180+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:05.936+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:06:05.936+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:05.940+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:05.940+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:06:06.181+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:06.181+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:06.185+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:16.186+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:16.187+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:16.192+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:26.207+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:26.208+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:26.229+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:26.963+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /register
+2025-05-14T06:06:26.963+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:06:26.963+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /register
+2025-05-14T06:06:26.964+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/register", parameters={}
+2025-05-14T06:06:26.964+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#register(RegisterRequest)
+2025-05-14T06:06:26.967+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.RegisterRequest@6ff7c667]
+2025-05-14T06:06:27.000+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.university.authservice.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-05-14T06:06:27.001+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-8] c.u.a.exception.GlobalExceptionHandler   : Unexpected error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] 
+
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:144) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at com.university.authservice.utilities.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+2025-05-14T06:06:27.006+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:06:27.006+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Internal server error"]
+2025-05-14T06:06:27.007+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] ]
+2025-05-14T06:06:27.007+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-05-14T06:06:35.947+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:06:35.947+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:35.966+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:35.966+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:06:36.241+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:36.241+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:36.257+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:46.261+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:46.261+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:46.279+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:06:56.282+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:06:56.282+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:06:56.288+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:05.969+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:07:05.969+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:05.973+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:05.973+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:07:06.289+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:06.289+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:06.295+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:16.297+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:16.297+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:16.302+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:26.304+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:26.304+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:26.308+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:33.585+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /register
+2025-05-14T06:07:33.586+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:07:33.586+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /register
+2025-05-14T06:07:33.586+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/register", parameters={}
+2025-05-14T06:07:33.586+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#register(RegisterRequest)
+2025-05-14T06:07:33.587+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.RegisterRequest@7716eba2]
+2025-05-14T06:07:33.588+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.university.authservice.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2025-05-14T06:07:33.588+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-5] c.u.a.exception.GlobalExceptionHandler   : Unexpected error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] 
+
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:144) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at com.university.authservice.utilities.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:44) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+2025-05-14T06:07:33.589+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:07:33.589+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Internal server error"]
+2025-05-14T06:07:33.590+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.university.authservice.controller.AuthController.register(com.university.authservice.Dto.RegisterRequest): [Field error in object 'registerRequest' on field 'password': rejected value [12345]; codes [Size.registerRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequest.password,password]; arguments []; default message [password],2147483647,6]; default message [Password must be at least 6 characters]] ]
+2025-05-14T06:07:33.590+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-05-14T06:07:35.468+03:00  INFO 9280 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-14T06:07:35.974+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:07:35.974+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:35.978+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:35.978+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:07:36.309+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:36.309+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:36.332+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:44.894+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /register
+2025-05-14T06:07:44.894+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:07:44.894+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /register
+2025-05-14T06:07:44.894+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/register", parameters={}
+2025-05-14T06:07:44.894+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#register(RegisterRequest)
+2025-05-14T06:07:44.896+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.RegisterRequest@fce5352]
+2025-05-14T06:07:44.896+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] c.u.a.controller.AuthController          : Received register request: com.university.authservice.Dto.RegisterRequest@fce5352
+2025-05-14T06:07:44.896+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] c.u.authservice.service.AuthService      : Registering user: user11
+2025-05-14T06:07:44.896+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] c.u.authservice.service.AuthService      : Register request role: USER
+2025-05-14T06:07:45.007+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] c.u.authservice.service.AuthService      : User role before saving: USER
+2025-05-14T06:07:45.057+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] c.u.authservice.service.AuthService      : Saved user role: USER
+2025-05-14T06:07:45.057+03:00  INFO 9280 --- [auth-service] [http-nio-8080-exec-4] AuthServiceLogger                        : Method register executed successfully in 161 ms.
+2025-05-14T06:07:45.058+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-14T06:07:45.058+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.university.authservice.Dto.UserResponse@28786b17]
+2025-05-14T06:07:45.059+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-14T06:07:46.362+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:46.363+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:46.386+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:50.124+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-14T06:07:50.124+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:07:50.124+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-14T06:07:50.124+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2025-05-14T06:07:50.124+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#login(LoginRequest)
+2025-05-14T06:07:50.125+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.LoginRequest@372807a3]
+2025-05-14T06:07:50.125+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] c.u.a.controller.AuthController          : Received login request for username: user11
+2025-05-14T06:07:50.126+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] c.u.authservice.service.AuthService      : Processing login for username: user11
+2025-05-14T06:07:50.203+03:00  WARN 9280 --- [auth-service] [http-nio-8080-exec-9] c.u.authservice.service.AuthService      : Invalid password for user: user11
+2025-05-14T06:07:50.204+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-9] AuthServiceLogger                        : Exception in method: login: Invalid username or password
+2025-05-14T06:07:50.204+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-9] c.u.a.controller.AuthController          : Login failed: Invalid username or password
+2025-05-14T06:07:50.204+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:07:50.204+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Invalid username or password"]
+2025-05-14T06:07:50.205+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2025-05-14T06:07:56.390+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:07:56.390+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:07:56.408+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:07:56.691+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-14T06:07:56.691+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:07:56.691+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-14T06:07:56.691+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2025-05-14T06:07:56.691+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#login(LoginRequest)
+2025-05-14T06:07:56.692+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.LoginRequest@7e55e776]
+2025-05-14T06:07:56.692+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] c.u.a.controller.AuthController          : Received login request for username: user11
+2025-05-14T06:07:56.692+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] c.u.authservice.service.AuthService      : Processing login for username: user11
+2025-05-14T06:07:56.782+03:00  WARN 9280 --- [auth-service] [http-nio-8080-exec-10] c.u.authservice.service.AuthService      : Invalid password for user: user11
+2025-05-14T06:07:56.782+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-10] AuthServiceLogger                        : Exception in method: login: Invalid username or password
+2025-05-14T06:07:56.782+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-10] c.u.a.controller.AuthController          : Login failed: Invalid username or password
+2025-05-14T06:07:56.783+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:07:56.783+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Invalid username or password"]
+2025-05-14T06:07:56.784+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2025-05-14T06:08:01.341+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-14T06:08:01.341+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:08:01.341+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-14T06:08:01.341+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2025-05-14T06:08:01.341+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#login(LoginRequest)
+2025-05-14T06:08:01.342+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.LoginRequest@6ac4bdd]
+2025-05-14T06:08:01.342+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] c.u.a.controller.AuthController          : Received login request for username: user11
+2025-05-14T06:08:01.342+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] c.u.authservice.service.AuthService      : Processing login for username: user11
+2025-05-14T06:08:01.418+03:00  WARN 9280 --- [auth-service] [http-nio-8080-exec-1] c.u.authservice.service.AuthService      : Invalid password for user: user11
+2025-05-14T06:08:01.418+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-1] AuthServiceLogger                        : Exception in method: login: Invalid username or password
+2025-05-14T06:08:01.418+03:00 ERROR 9280 --- [auth-service] [http-nio-8080-exec-1] c.u.a.controller.AuthController          : Login failed: Invalid username or password
+2025-05-14T06:08:01.418+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:08:01.418+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Invalid username or password"]
+2025-05-14T06:08:01.419+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 401 UNAUTHORIZED
+2025-05-14T06:08:05.989+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:08:05.990+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:06.007+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:06.007+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:08:06.437+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:06.437+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:06.458+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:09.872+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /register
+2025-05-14T06:08:09.872+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:08:09.872+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /register
+2025-05-14T06:08:09.872+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/register", parameters={}
+2025-05-14T06:08:09.872+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#register(RegisterRequest)
+2025-05-14T06:08:09.873+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.RegisterRequest@294291f0]
+2025-05-14T06:08:09.873+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] c.u.a.controller.AuthController          : Received register request: com.university.authservice.Dto.RegisterRequest@294291f0
+2025-05-14T06:08:09.873+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] c.u.authservice.service.AuthService      : Registering user: user12
+2025-05-14T06:08:09.873+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] c.u.authservice.service.AuthService      : Register request role: USER
+2025-05-14T06:08:09.955+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] c.u.authservice.service.AuthService      : User role before saving: USER
+2025-05-14T06:08:09.960+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] c.u.authservice.service.AuthService      : Saved user role: USER
+2025-05-14T06:08:09.960+03:00  INFO 9280 --- [auth-service] [http-nio-8080-exec-2] AuthServiceLogger                        : Method register executed successfully in 87 ms.
+2025-05-14T06:08:09.960+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2025-05-14T06:08:09.961+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.university.authservice.Dto.UserResponse@e4ab611]
+2025-05-14T06:08:09.961+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-14T06:08:14.726+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-14T06:08:14.726+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-14T06:08:14.726+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-14T06:08:14.726+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={}
+2025-05-14T06:08:14.726+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.university.authservice.controller.AuthController#login(LoginRequest)
+2025-05-14T06:08:14.727+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.university.authservice.Dto.LoginRequest@651d805c]
+2025-05-14T06:08:14.727+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] c.u.a.controller.AuthController          : Received login request for username: user12
+2025-05-14T06:08:14.727+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] c.u.authservice.service.AuthService      : Processing login for username: user12
+2025-05-14T06:08:14.809+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] c.u.authservice.service.AuthService      : Password matched for user: user12
+2025-05-14T06:08:14.809+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] c.u.authservice.service.AuthService      : UserDetails created: user12
+2025-05-14T06:08:14.809+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] c.u.authservice.service.AuthService      : JWT token generated for user: user12
+2025-05-14T06:08:14.809+03:00  INFO 9280 --- [auth-service] [http-nio-8080-exec-3] AuthServiceLogger                        : Method login executed successfully in 82 ms.
+2025-05-14T06:08:14.809+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2025-05-14T06:08:14.810+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMTIiLCJzdHVkZW50SWQiOjEwMDQzLCJyb2xlIjoiUk9MRV9VU0VSIiwiaWF0Ijo (truncated)..."]
+2025-05-14T06:08:14.810+03:00 DEBUG 9280 --- [auth-service] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-05-14T06:08:16.461+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:16.461+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:16.479+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:26.495+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:26.496+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:26.512+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:36.015+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:08:36.015+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:36.034+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:36.034+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:08:36.517+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:36.517+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:36.535+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:46.540+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:46.541+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:46.559+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:08:56.567+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:08:56.567+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:08:56.586+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:06.054+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:09:06.054+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:06.058+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:06.058+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:09:06.588+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:06.588+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:06.592+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:16.593+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:16.593+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:16.598+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:26.600+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:26.600+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:26.604+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:36.059+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:09:36.059+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:36.064+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:36.064+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:09:36.606+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:36.606+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:36.610+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:46.613+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:46.613+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:46.616+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:09:56.619+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:09:56.619+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:09:56.629+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:06.065+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:10:06.065+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:06.068+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:06.068+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:10:06.629+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:06.629+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:06.633+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:16.636+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:16.636+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:16.639+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:26.645+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:26.645+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:26.657+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:36.082+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:10:36.082+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:36.099+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:36.099+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:10:36.658+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:36.659+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:36.677+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:46.684+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:46.685+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:46.702+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:10:56.713+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:10:56.713+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:10:56.728+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:06.107+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:11:06.107+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:06.110+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:06.110+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:11:06.732+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:06.732+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:06.736+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:16.738+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:16.740+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:16.757+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:26.766+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:26.767+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:26.784+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:36.116+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:11:36.116+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:36.123+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:36.123+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:11:36.786+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:36.786+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:36.804+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:46.815+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:46.815+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:46.832+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:11:56.841+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:11:56.843+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:11:56.859+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:06.134+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:12:06.134+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:06.154+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:06.154+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:12:06.860+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:06.861+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:06.878+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:16.889+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:16.890+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:16.906+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:26.915+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:26.915+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:26.918+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:35.469+03:00  INFO 9280 --- [auth-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-14T06:12:36.156+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:12:36.156+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:36.160+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:36.161+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:12:36.919+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:36.919+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:36.923+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:46.930+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:46.930+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:46.942+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:12:56.951+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:12:56.951+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:12:56.965+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:13:06.171+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2025-05-14T06:13:06.171+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:13:06.188+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:13:06.188+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-14T06:13:06.978+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:13:06.978+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:13:06.996+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-14T06:13:17.013+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/AUTH-SERVICE/marwan:auth-service:8080?status=UP&lastDirtyTimestamp=1747191755793
+2025-05-14T06:13:17.013+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-14T06:13:17.018+03:00 DEBUG 9280 --- [auth-service] [DiscoveryClient-HeartbeatExecutor-%d] o.s.web.client.RestTemplate              : Response 200 OK

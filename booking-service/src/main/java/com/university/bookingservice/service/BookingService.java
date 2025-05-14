@@ -98,7 +98,7 @@ public class BookingService {
             }
             logger.debug("Room validated successfully via service: {}", ROOM_SERVICE_NAME);
 
-            // Check if room  is in system by calling room-service
+            // Check if room  is in available for booking by calling room-service
             String availabilityUrl = "http://" + ROOM_SERVICE_NAME + "/rooms/" + booking.getRoomId() + "/available";
             logger.debug("Checking room availability using service URL: {}", availabilityUrl);
 
